@@ -7,8 +7,12 @@ const Services = () => {
     "Beard Dyeing",
     "Beard Maintenance",
     "Beard Trim",
+    "Box Braids",
+    "Braids",
     "Buzz Cut",
     "Capillary Hair Treatment",
+    "Comb Twist",
+    "Cornrows",
     "Curly Hair",
     "Custom Cut",
     "Eyebrow Tinting",
@@ -19,6 +23,7 @@ const Services = () => {
     "Hair Extensions",
     "Hair Shape-Up",
     "Hair Straightening",
+    "Hairstyling",
     "Head Shave",
     "Hot Towel Shave",
     "Children's Cuts",
@@ -33,6 +38,7 @@ const Services = () => {
     "Shampoo & Conditioning",
     "Shave",
     "Straight Razor Shave",
+    "Wash and Blowdry",
     "Waxing",
   ];
 
