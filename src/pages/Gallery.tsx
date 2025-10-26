@@ -1,4 +1,4 @@
-import galleryFade from "@/assets/gallery-fade.jpg";
+import galleryHaircut from "@/assets/gallery-haircut.jpg";
 import galleryBeard from "@/assets/gallery-beard.jpg";
 import galleryShave from "@/assets/gallery-shave.jpg";
 import galleryColor from "@/assets/gallery-color.jpg";
@@ -7,7 +7,7 @@ import galleryKids from "@/assets/gallery-kids.jpg";
 
 const Gallery = () => {
   const galleryImages = [
-    { src: galleryFade, alt: "Professional fade haircut", category: "Haircuts" },
+    { src: galleryHaircut, alt: "Professional fade haircut", category: "Haircuts" },
     { src: galleryBeard, alt: "Expertly groomed beard", category: "Beard Work" },
     { src: galleryShave, alt: "Traditional hot towel shave", category: "Shaving" },
     { src: galleryColor, alt: "Professional hair coloring service", category: "Styling" },
