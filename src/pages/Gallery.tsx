@@ -1,6 +1,6 @@
 import galleryHaircut from "@/assets/gallery-haircut.jpg";
 import galleryBeard from "@/assets/gallery-beard-new.jpg";
-import galleryShave from "@/assets/gallery-shave.jpg";
+import galleryCleanCut from "@/assets/gallery-cleancut.jpg";
 import galleryBraiding from "@/assets/gallery-braiding.jpg";
 import galleryInterior from "@/assets/gallery-interior.jpg";
 import galleryKids from "@/assets/gallery-kids.jpg";
@@ -9,7 +9,7 @@ const Gallery = () => {
   const galleryImages = [
     { src: galleryHaircut, alt: "Professional fade haircut", category: "Haircuts" },
     { src: galleryBeard, alt: "Expertly groomed beard", category: "Beard Work" },
-    { src: galleryShave, alt: "Traditional hot towel shave", category: "Shaving" },
+    { src: galleryCleanCut, alt: "Clean cut haircut service", category: "Clean Cut" },
     { src: galleryBraiding, alt: "Professional braiding service", category: "Braiding" },
     { src: galleryInterior, alt: "Modern barbershop interior", category: "Shop Interior" },
     { src: galleryKids, alt: "Children's haircut service", category: "Kids Cuts" },
