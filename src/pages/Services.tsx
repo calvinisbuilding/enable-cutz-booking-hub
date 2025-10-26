@@ -39,7 +39,6 @@ const Services = () => {
     "Shave",
     "Straight Razor Shave",
     "Wash and Blowdry",
-    "Waxing",
   ];
 
   return (
