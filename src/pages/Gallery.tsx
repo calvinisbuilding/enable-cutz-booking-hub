@@ -1,5 +1,5 @@
 import galleryHaircut from "@/assets/gallery-haircut.jpg";
-import galleryBeard from "@/assets/gallery-beard.jpg";
+import galleryBeard from "@/assets/gallery-beard-new.jpg";
 import galleryShave from "@/assets/gallery-shave.jpg";
 import galleryColor from "@/assets/gallery-color.jpg";
 import galleryInterior from "@/assets/gallery-interior.jpg";
