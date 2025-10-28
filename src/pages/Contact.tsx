@@ -104,7 +104,7 @@ const Contact = () => {
                 className="bg-accent hover:bg-accent/90 text-accent-foreground font-poppins font-semibold"
                 asChild
               >
-                <a href="https://calendly.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://calendly.com/addaebediako7/new-meeting" target="_blank" rel="noopener noreferrer">
                   Book an Appointment
                 </a>
               </Button>

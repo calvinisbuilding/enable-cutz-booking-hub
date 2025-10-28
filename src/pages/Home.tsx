@@ -38,7 +38,7 @@ const Home = () => {
             className="bg-accent hover:bg-accent/90 text-accent-foreground font-poppins font-semibold text-lg px-8 py-6 shadow-xl hover:shadow-2xl transition-all"
             asChild
           >
-            <a href="https://calendly.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://calendly.com/addaebediako7/new-meeting" target="_blank" rel="noopener noreferrer">
               Book Your Appointment Now
             </a>
           </Button>
@@ -100,7 +100,7 @@ const Home = () => {
             className="bg-accent hover:bg-accent/90 text-accent-foreground font-poppins font-semibold text-lg px-8 py-6 shadow-xl"
             asChild
           >
-            <a href="https://calendly.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://calendly.com/addaebediako7/new-meeting" target="_blank" rel="noopener noreferrer">
               Book Online Now
             </a>
           </Button>

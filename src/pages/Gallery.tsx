@@ -54,7 +54,7 @@ const Gallery = () => {
             Want to be our next satisfied customer?
           </p>
           <a 
-            href="https://calendly.com" 
+            href="https://calendly.com/addaebediako7/new-meeting" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-block bg-accent hover:bg-accent/90 text-accent-foreground font-poppins font-semibold px-8 py-4 rounded-md transition-colors"

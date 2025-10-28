@@ -39,7 +39,7 @@ const Navigation = () => {
               </Link>
             ))}
             <Button variant="default" className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold" asChild>
-              <a href="https://calendly.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://calendly.com/addaebediako7/new-meeting" target="_blank" rel="noopener noreferrer">
                 Book Now
               </a>
             </Button>
@@ -75,7 +75,7 @@ const Navigation = () => {
               className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold w-full mt-2" 
               asChild
             >
-              <a href="https://calendly.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://calendly.com/addaebediako7/new-meeting" target="_blank" rel="noopener noreferrer">
                 Book Now
               </a>
             </Button>
