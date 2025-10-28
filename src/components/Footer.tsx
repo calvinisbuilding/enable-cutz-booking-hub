@@ -43,14 +43,14 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-5 h-5 text-accent flex-shrink-0" />
-                <a href="tel:+441234567890" className="hover:text-accent transition-colors">
-                  0121 XXX XXXX
+                <a href="tel:+447459700262" className="hover:text-accent transition-colors">
+                  07459 700262
                 </a>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-5 h-5 text-accent flex-shrink-0" />
-                <a href="mailto:info@enablecutz.com" className="hover:text-accent transition-colors">
-                  info@enablecutz.com
+                <a href="mailto:addaebediako7@gmail.com" className="hover:text-accent transition-colors">
+                  addaebediako7@gmail.com
                 </a>
               </div>
             </div>
