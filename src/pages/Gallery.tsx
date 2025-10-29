@@ -24,11 +24,11 @@ const Gallery = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-5 lg:gap-6">
           {galleryImages.map((image, index) => (
             <div 
               key={index} 
-              className="group relative overflow-hidden rounded-lg aspect-square cursor-pointer shadow-md hover:shadow-xl transition-shadow"
+              className="group relative overflow-hidden rounded-lg aspect-square cursor-pointer shadow-md hover:shadow-xl transition-all duration-300"
             >
               <img
                 src={image.src}
@@ -36,8 +36,8 @@ const Gallery = () => {
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                <div className="p-4 sm:p-6 text-primary-foreground">
-                  <p className="font-bebas text-lg sm:text-xl mb-1 tracking-wide">{image.category}</p>
+                <div className="p-4 sm:p-5 md:p-6 text-primary-foreground">
+                  <p className="font-bebas text-base sm:text-lg md:text-xl mb-1 tracking-wide">{image.category}</p>
                   <p className="font-open-sans text-xs sm:text-sm opacity-90">{image.alt}</p>
                 </div>
               </div>

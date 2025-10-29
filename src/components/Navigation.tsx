@@ -26,7 +26,7 @@ const Navigation = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-6 lg:gap-8">
+          <div className="hidden md:flex items-center gap-4 lg:gap-6 xl:gap-8">
             {navLinks.map((link) => (
               <Link
                 key={link.path}
@@ -38,7 +38,7 @@ const Navigation = () => {
                 {link.name}
               </Link>
             ))}
-            <Button variant="default" className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold min-h-[44px]" asChild>
+            <Button variant="default" className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold text-sm lg:text-base min-h-[44px] px-4 lg:px-6" asChild>
               <a href="https://calendly.com/addaebediako7/new-meeting" target="_blank" rel="noopener noreferrer">
                 Book Now
               </a>

@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-[500px] sm:h-[600px] lg:h-[700px] flex items-center justify-center overflow-hidden">
+      <section className="relative h-[450px] sm:h-[550px] md:h-[650px] lg:h-[700px] xl:h-[750px] flex items-center justify-center overflow-hidden">
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{ 
@@ -26,16 +26,16 @@ const Home = () => {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-primary/95 to-primary/70" />
         
-        <div className="relative z-10 text-center text-primary-foreground px-4 sm:px-6 max-w-4xl mx-auto">
-          <h1 className="font-bebas text-4xl sm:text-5xl md:text-6xl lg:text-8xl mb-4 sm:mb-6 animate-fade-in tracking-wide">
+        <div className="relative z-10 text-center text-primary-foreground px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
+          <h1 className="font-bebas text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl mb-3 sm:mb-4 md:mb-6 animate-fade-in tracking-wide">
             Enable Cutz Barbers Salon
           </h1>
-          <p className="font-open-sans text-base sm:text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 opacity-95">
+          <p className="font-open-sans text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl mb-6 sm:mb-7 md:mb-8 opacity-95 max-w-3xl mx-auto">
             Premium Grooming & Styling in Smethwick
           </p>
           <Button 
             size="lg" 
-            className="bg-accent hover:bg-accent/90 text-accent-foreground font-montserrat font-semibold text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 min-h-[48px] shadow-xl hover:shadow-2xl transition-all w-full sm:w-auto"
+            className="bg-accent hover:bg-accent/90 text-accent-foreground font-montserrat font-semibold text-sm sm:text-base md:text-lg px-6 sm:px-8 md:px-10 py-4 sm:py-5 md:py-6 min-h-[48px] shadow-xl hover:shadow-2xl transition-all w-full sm:w-auto max-w-sm sm:max-w-none"
             asChild
           >
             <a href="https://calendly.com/addaebediako7/new-meeting" target="_blank" rel="noopener noreferrer">
@@ -57,12 +57,12 @@ const Home = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 md:gap-6 mb-8 sm:mb-12">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 lg:gap-6 mb-8 sm:mb-10 lg:mb-12">
             {featuredServices.map((service) => (
               <Card key={service.name} className="border-border hover:border-accent transition-all duration-300 hover:shadow-xl group">
-                <CardContent className="p-5 sm:p-6 md:p-7">
-                  <service.icon className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 text-accent mb-3 sm:mb-4 group-hover:scale-110 transition-transform duration-300" />
-                  <h3 className="font-bebas text-xl sm:text-2xl md:text-3xl mb-2 text-foreground tracking-wide">
+                <CardContent className="p-5 sm:p-6 lg:p-7">
+                  <service.icon className="w-10 h-10 sm:w-11 sm:h-11 md:w-12 md:h-12 lg:w-14 lg:h-14 text-accent mb-3 sm:mb-4 group-hover:scale-110 transition-transform duration-300" />
+                  <h3 className="font-bebas text-xl sm:text-2xl lg:text-3xl mb-2 text-foreground tracking-wide">
                     {service.name}
                   </h3>
                   <p className="font-open-sans text-sm sm:text-base text-muted-foreground leading-relaxed">

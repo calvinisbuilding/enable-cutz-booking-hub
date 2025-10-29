@@ -54,14 +54,14 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 sm:gap-4 md:gap-5 mb-10 sm:mb-16">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 sm:gap-4 lg:gap-5 mb-10 sm:mb-14 lg:mb-16">
           {services.map((service) => (
             <Card 
               key={service} 
               className="border-border hover:border-accent transition-all duration-300 hover:shadow-lg group cursor-default"
             >
-              <CardContent className="p-4 sm:p-5 md:p-6 text-center flex items-center justify-center min-h-[80px] sm:min-h-[90px]">
-                <h3 className="font-bebas text-base sm:text-lg md:text-xl text-foreground group-hover:text-accent transition-colors tracking-wide">
+              <CardContent className="p-3 sm:p-4 md:p-5 lg:p-6 text-center flex items-center justify-center min-h-[75px] sm:min-h-[85px] md:min-h-[95px]">
+                <h3 className="font-bebas text-sm sm:text-base md:text-lg lg:text-xl text-foreground group-hover:text-accent transition-colors tracking-wide">
                   {service}
                 </h3>
               </CardContent>

@@ -15,9 +15,9 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-10 mb-10 sm:mb-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-10 xl:gap-12 mb-10 sm:mb-14 lg:mb-16">
           {/* Contact Information */}
-          <div className="space-y-4 sm:space-y-5">
+          <div className="space-y-4 sm:space-y-5 lg:space-y-6">
             <Card className="border-border hover:border-accent/50 transition-colors">
               <CardContent className="p-5 sm:p-6">
                 <div className="flex items-start gap-4">
@@ -111,7 +111,7 @@ const Contact = () => {
           </div>
 
           {/* Map */}
-          <div className="h-[450px] sm:h-[550px] lg:h-full lg:min-h-[700px] rounded-lg overflow-hidden border-2 border-border shadow-xl">
+          <div className="h-[400px] sm:h-[500px] md:h-[550px] lg:h-full lg:min-h-[650px] xl:min-h-[750px] rounded-lg overflow-hidden border-2 border-border shadow-xl">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2429.4067892384876!2d-1.9763445!3d52.4964523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870bc5c8e44d3e7%3A0x8b5e0f5e5e5e5e5e!2s181%20Sandon%20Rd%2C%20Smethwick%20B66%204AA%2C%20UK!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
               width="100%"
