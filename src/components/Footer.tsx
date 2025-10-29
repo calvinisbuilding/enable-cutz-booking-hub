@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
           <div>
-            <h3 className="font-poppins font-bold text-2xl mb-4">Enable Cutz</h3>
+            <h3 className="font-bebas text-3xl mb-4 tracking-wide">Enable Cutz</h3>
             <p className="font-open-sans text-sm opacity-90">
               Premium Grooming & Styling in Smethwick
             </p>
@@ -16,7 +16,7 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h4 className="font-poppins font-semibold text-lg mb-4">Quick Links</h4>
+            <h4 className="font-bebas text-xl mb-4 tracking-wide">Quick Links</h4>
             <nav className="flex flex-col gap-2">
               <Link to="/" className="font-open-sans text-sm hover:text-accent transition-colors">
                 Home
@@ -35,7 +35,7 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h4 className="font-poppins font-semibold text-lg mb-4">Contact Us</h4>
+            <h4 className="font-bebas text-xl mb-4 tracking-wide">Contact Us</h4>
             <div className="flex flex-col gap-3 font-open-sans text-sm">
               <div className="flex items-start gap-2">
                 <MapPin className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />

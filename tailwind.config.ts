@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        poppins: ['Poppins', 'sans-serif'],
-        'open-sans': ['Open Sans', 'sans-serif'],
+        bebas: ['Bebas Neue', 'sans-serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",

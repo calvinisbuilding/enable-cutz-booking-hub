@@ -7,7 +7,7 @@ const Contact = () => {
     <div className="min-h-screen py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h1 className="font-poppins font-bold text-5xl md:text-6xl text-foreground mb-6">
+          <h1 className="font-bebas text-6xl md:text-7xl text-foreground mb-6 tracking-wide">
             Contact Us
           </h1>
           <p className="font-open-sans text-lg text-muted-foreground max-w-3xl mx-auto">
@@ -23,7 +23,7 @@ const Contact = () => {
                 <div className="flex items-start gap-4">
                   <MapPin className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-poppins font-semibold text-lg text-foreground mb-2">
+                    <h3 className="font-bebas text-xl text-foreground mb-2 tracking-wide">
                       Address
                     </h3>
                     <p className="font-open-sans text-muted-foreground">
@@ -41,7 +41,7 @@ const Contact = () => {
                 <div className="flex items-start gap-4">
                   <Phone className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-poppins font-semibold text-lg text-foreground mb-2">
+                    <h3 className="font-bebas text-xl text-foreground mb-2 tracking-wide">
                       Phone
                     </h3>
                     <a 
@@ -60,7 +60,7 @@ const Contact = () => {
                 <div className="flex items-start gap-4">
                   <Mail className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-poppins font-semibold text-lg text-foreground mb-2">
+                    <h3 className="font-bebas text-xl text-foreground mb-2 tracking-wide">
                       Email
                     </h3>
                     <a 
@@ -79,7 +79,7 @@ const Contact = () => {
                 <div className="flex items-start gap-4">
                   <Clock className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-poppins font-semibold text-lg text-foreground mb-2">
+                    <h3 className="font-bebas text-xl text-foreground mb-2 tracking-wide">
                       Business Hours
                     </h3>
                     <div className="font-open-sans text-muted-foreground space-y-1">
@@ -92,7 +92,7 @@ const Contact = () => {
             </Card>
 
             <div className="bg-accent/10 border border-accent rounded-lg p-8 text-center">
-              <h3 className="font-poppins font-bold text-2xl text-foreground mb-4">
+              <h3 className="font-bebas text-3xl text-foreground mb-4 tracking-wide">
                 Ready to Book?
               </h3>
               <p className="font-open-sans text-muted-foreground mb-6">
@@ -100,7 +100,7 @@ const Contact = () => {
               </p>
               <Button 
                 size="lg" 
-                className="bg-accent hover:bg-accent/90 text-accent-foreground font-poppins font-semibold"
+                className="bg-accent hover:bg-accent/90 text-accent-foreground font-montserrat font-semibold"
                 asChild
               >
                 <a href="https://calendly.com/addaebediako7/new-meeting" target="_blank" rel="noopener noreferrer">

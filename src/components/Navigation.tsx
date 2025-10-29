@@ -21,7 +21,7 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link to="/" className="font-poppins font-bold text-2xl hover:text-accent transition-colors">
+          <Link to="/" className="font-bebas text-3xl tracking-wide hover:text-accent transition-colors">
             Enable Cutz
           </Link>
 

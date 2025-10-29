@@ -45,7 +45,7 @@ const Services = () => {
     <div className="min-h-screen py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h1 className="font-poppins font-bold text-5xl md:text-6xl text-foreground mb-6">
+          <h1 className="font-bebas text-6xl md:text-7xl text-foreground mb-6 tracking-wide">
             Our Services
           </h1>
           <p className="font-open-sans text-lg text-muted-foreground max-w-3xl mx-auto">
@@ -61,7 +61,7 @@ const Services = () => {
               className="border-border hover:border-accent transition-all duration-300 hover:shadow-lg group cursor-default"
             >
               <CardContent className="p-6 text-center">
-                <h3 className="font-poppins font-semibold text-lg text-foreground group-hover:text-accent transition-colors">
+                <h3 className="font-bebas text-xl text-foreground group-hover:text-accent transition-colors tracking-wide">
                   {service}
                 </h3>
               </CardContent>
@@ -70,7 +70,7 @@ const Services = () => {
         </div>
 
         <div className="text-center bg-card p-12 rounded-lg border border-border">
-          <h2 className="font-poppins font-bold text-3xl text-foreground mb-4">
+          <h2 className="font-bebas text-4xl text-foreground mb-4 tracking-wide">
             Ready to Book?
           </h2>
           <p className="font-open-sans text-muted-foreground mb-6">
@@ -78,7 +78,7 @@ const Services = () => {
           </p>
           <Button 
             size="lg" 
-            className="bg-accent hover:bg-accent/90 text-accent-foreground font-poppins font-semibold"
+            className="bg-accent hover:bg-accent/90 text-accent-foreground font-montserrat font-semibold"
             asChild
           >
             <a href="https://calendly.com/addaebediako7/new-meeting" target="_blank" rel="noopener noreferrer">
