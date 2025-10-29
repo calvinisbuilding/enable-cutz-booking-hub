@@ -26,19 +26,19 @@ const Navigation = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden md:flex items-center gap-6 lg:gap-8">
             {navLinks.map((link) => (
               <Link
                 key={link.path}
                 to={link.path}
-                className={`font-open-sans font-medium transition-colors hover:text-accent ${
+                className={`font-montserrat font-medium transition-colors hover:text-accent text-sm lg:text-base ${
                   isActive(link.path) ? "text-accent" : ""
                 }`}
               >
                 {link.name}
               </Link>
             ))}
-            <Button variant="default" className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold" asChild>
+            <Button variant="default" className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold min-h-[44px]" asChild>
               <a href="https://calendly.com/addaebediako7/new-meeting" target="_blank" rel="noopener noreferrer">
                 Book Now
               </a>
@@ -47,7 +47,7 @@ const Navigation = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden"
+            className="md:hidden p-2 -mr-2 min-w-[44px] min-h-[44px] flex items-center justify-center"
             onClick={() => setIsOpen(!isOpen)}
             aria-label="Toggle menu"
           >
@@ -57,12 +57,12 @@ const Navigation = () => {
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div className="md:hidden pb-4">
+          <div className="md:hidden pb-4 space-y-1">
             {navLinks.map((link) => (
               <Link
                 key={link.path}
                 to={link.path}
-                className={`block py-2 font-open-sans transition-colors hover:text-accent ${
+                className={`block py-3 px-2 font-montserrat font-medium transition-colors hover:text-accent min-h-[44px] flex items-center ${
                   isActive(link.path) ? "text-accent" : ""
                 }`}
                 onClick={() => setIsOpen(false)}
@@ -72,7 +72,7 @@ const Navigation = () => {
             ))}
             <Button 
               variant="default" 
-              className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold w-full mt-2" 
+              className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold w-full mt-2 min-h-[48px]" 
               asChild
             >
               <a href="https://calendly.com/addaebediako7/new-meeting" target="_blank" rel="noopener noreferrer">

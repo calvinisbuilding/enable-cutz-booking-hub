@@ -12,19 +12,19 @@ const Gallery = () => {
   ];
 
   return (
-    <div className="min-h-screen py-20 bg-background">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h1 className="font-bebas text-6xl md:text-7xl text-foreground mb-6 tracking-wide">
+    <div className="min-h-screen py-12 sm:py-16 lg:py-20 bg-background">
+      <div className="container mx-auto px-4 sm:px-6">
+        <div className="text-center mb-10 sm:mb-16">
+          <h1 className="font-bebas text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-foreground mb-4 sm:mb-6 tracking-wide">
             Our Work
           </h1>
-          <p className="font-open-sans text-lg text-muted-foreground max-w-3xl mx-auto">
+          <p className="font-open-sans text-base sm:text-lg text-muted-foreground max-w-3xl mx-auto px-4">
             Take a look at some of our finest work. Every cut, style, and detail reflects 
             our commitment to excellence in grooming.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
           {galleryImages.map((image, index) => (
             <div 
               key={index} 
@@ -45,15 +45,15 @@ const Gallery = () => {
           ))}
         </div>
 
-        <div className="mt-16 text-center">
-          <p className="font-open-sans text-muted-foreground mb-6">
+        <div className="mt-10 sm:mt-16 text-center px-4">
+          <p className="font-open-sans text-sm sm:text-base text-muted-foreground mb-4 sm:mb-6">
             Want to be our next satisfied customer?
           </p>
           <a 
             href="https://calendly.com/addaebediako7/new-meeting" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="inline-block bg-accent hover:bg-accent/90 text-accent-foreground font-montserrat font-semibold px-8 py-4 rounded-md transition-colors"
+            className="inline-block bg-accent hover:bg-accent/90 text-accent-foreground font-montserrat font-semibold px-6 sm:px-8 py-3 sm:py-4 rounded-md transition-colors min-h-[48px] w-full sm:w-auto"
           >
             Book Your Appointment
           </a>

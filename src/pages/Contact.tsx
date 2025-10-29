@@ -4,18 +4,18 @@ import { MapPin, Phone, Mail, Clock } from "lucide-react";
 
 const Contact = () => {
   return (
-    <div className="min-h-screen py-20 bg-background">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h1 className="font-bebas text-6xl md:text-7xl text-foreground mb-6 tracking-wide">
+    <div className="min-h-screen py-12 sm:py-16 lg:py-20 bg-background">
+      <div className="container mx-auto px-4 sm:px-6">
+        <div className="text-center mb-10 sm:mb-16">
+          <h1 className="font-bebas text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-foreground mb-4 sm:mb-6 tracking-wide">
             Contact Us
           </h1>
-          <p className="font-open-sans text-lg text-muted-foreground max-w-3xl mx-auto">
+          <p className="font-open-sans text-base sm:text-lg text-muted-foreground max-w-3xl mx-auto px-4">
             Visit us today or get in touch to book your appointment. We're here to help you look your best.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 mb-10 sm:mb-16">
           {/* Contact Information */}
           <div className="space-y-6">
             <Card className="border-border">
@@ -91,16 +91,16 @@ const Contact = () => {
               </CardContent>
             </Card>
 
-            <div className="bg-accent/10 border border-accent rounded-lg p-8 text-center">
-              <h3 className="font-bebas text-3xl text-foreground mb-4 tracking-wide">
+            <div className="bg-accent/10 border border-accent rounded-lg p-6 sm:p-8 text-center">
+              <h3 className="font-bebas text-2xl sm:text-3xl text-foreground mb-3 sm:mb-4 tracking-wide">
                 Ready to Book?
               </h3>
-              <p className="font-open-sans text-muted-foreground mb-6">
+              <p className="font-open-sans text-sm sm:text-base text-muted-foreground mb-4 sm:mb-6 px-2">
                 Schedule your appointment online for a convenient time that works for you
               </p>
               <Button 
                 size="lg" 
-                className="bg-accent hover:bg-accent/90 text-accent-foreground font-montserrat font-semibold"
+                className="bg-accent hover:bg-accent/90 text-accent-foreground font-montserrat font-semibold min-h-[48px] w-full sm:w-auto"
                 asChild
               >
                 <a href="https://calendly.com/addaebediako7/new-meeting" target="_blank" rel="noopener noreferrer">
@@ -111,7 +111,7 @@ const Contact = () => {
           </div>
 
           {/* Map */}
-          <div className="h-[600px] rounded-lg overflow-hidden border border-border shadow-lg">
+          <div className="h-[400px] sm:h-[500px] lg:h-[600px] rounded-lg overflow-hidden border border-border shadow-lg">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2429.4067892384876!2d-1.9763445!3d52.4964523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870bc5c8e44d3e7%3A0x8b5e0f5e5e5e5e5e!2s181%20Sandon%20Rd%2C%20Smethwick%20B66%204AA%2C%20UK!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
               width="100%"
